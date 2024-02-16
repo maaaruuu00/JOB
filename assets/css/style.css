@@ -2206,6 +2206,49 @@ section {
 	text-align: left;
 	
 }
+
+/*--------------------------------------------------------------
+# personalinfo
+--------------------------------------------------------------*/
+.title h2{
+	margin:10px 0 0 0;
+	color: #2e2e2e;
+	margin-bottom: 50px;
+	font-size: 48px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.privacyWrap {
+	margin:auto;
+	border-style:solid;
+	border-width:4px;
+	border-color :#BDBDBD;
+	width:1300px;
+	text-align:center;
+}
+
+
+/* 외부 컨테이너를 화면 가운데에 배치 */
+.center-container {
+  display: flex;
+  justify-content: center;
+  width: 75%; /* 필요에 따라 조정 */
+}
+
+/* 내부 컨테이너에 콘텐츠를 왼쪽 정렬 */
+.content-container {
+  text-align: left;
+  max-width: 800px; /* 콘텐츠의 최대 너비, 필요에 따라 조정 */
+  width: 100%; /* 내부 컨테이너 너비를 외부 컨테이너에 맞춤 */
+}
+
+.chargeList .title {
+  font-size: 24px; /* 폰트 크기를 24px로 설정 */
+  margin:30px 0 10px 0;
+  color:black;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
